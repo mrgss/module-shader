@@ -14,7 +14,7 @@
 #ifdef	__cplusplus
 extern "C" {
 #endif
-	void mrb_mrgss_shader_gem_init(mrb_state *mrb) {
+	void mrb_mrgss_shader_gem_init(mrb_state *mrb);
 
     void mrgss_init_shader(mrb_state *mrb);
     
